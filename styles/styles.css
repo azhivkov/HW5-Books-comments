@@ -1,0 +1,67 @@
+body {
+    font-family:Verdana;
+    font-size: 12px;
+
+}
+
+a img {
+    border: 0;
+}
+header a {
+    height: 30px;
+    line-height: 30px;
+    background: #282828;
+    color:#EEEEEE;
+    padding: 10px;
+    text-decoration: none;
+}
+
+h1 {
+    font-family:verdana;
+    font-size:20px;
+    text-shadow: 1px 2px 8px rgba(150, 150, 150, 1);
+}
+h3 { 
+    font-family: verdana;
+    text-shadow: 1px 2px 8px rgba(150, 150, 150, 1);
+}
+h4 { 
+    font-family: verdana;
+    color: #E42E6B;
+    font-size: 12px;
+    text-align:left;
+    text-shadow: 1px 2px 8px rgba(250, 150, 150, 1);
+}
+
+table {
+    width: 500px;
+    background: #ffffff;
+}
+
+table, tr, td {
+    border: 1px solid #666;
+    border-collapse:collapse;
+    padding: 5px;
+}
+
+table tbody tr:nth-of-type(odd){
+    background: #eee;
+}
+
+table tbody tr:hover {
+    background: #adc9e6;
+}
+
+thead, tfoot{
+    background: #282828;
+    color: #eee;
+    font-weight: bold;
+}
+
+tfoot {
+    text-align: right;
+}
+
+select, input {
+    font-size: 15px;
+}
